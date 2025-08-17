@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL:  'https://champo-backend.onrender.com',
+  baseURL:  'https://champo-backend.onrender.com/api',
   headers: {
     'Content-Type': 'application/json'
   }
